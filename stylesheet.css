@@ -19,7 +19,7 @@ button {
 }
 
 body {
-    background-color: #fffbf7;
+    background-color: #892cda;
     text-align: center;
 }
 
@@ -29,6 +29,7 @@ body {
     margin-right: 20px;
     font-size: 0;
     height: 45px;
+    font-family: sans-serif;
 }
 
 li {
@@ -38,6 +39,7 @@ li {
 .header > * {
     display: inline-block;
     font-size: 16px;
+    vertical-align: middle;
     height: 100%;
     line-height: 45px;
 }
@@ -52,6 +54,11 @@ li {
     color: #025157;
     font-weight: 500;
 }
+.menu-item {
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
 
 .actions {
     width: 15%;
@@ -59,3 +66,29 @@ li {
     font-size: 14px;
     font-weight: 600;
 }
+
+.actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.actions a {
+    color: #67b54b;
+}
+
+.actions button {
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.main {
+    margin-top: 140px;
+    text-align: center;
+}
+
